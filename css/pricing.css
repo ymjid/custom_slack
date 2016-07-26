@@ -1,0 +1,215 @@
+body {
+  margin:0;
+  padding: 0;
+  background-image: url("../images/neutrino-observatory-header-image.jpg");
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+input[type="text"] {
+  width:200px;
+  height:50px;
+}
+
+input[type="submit"] {
+  width:200px;
+  height:50px;
+  background-color: #56b68b;
+  color:white;
+  border-radius: 5px;
+  text-align: center;
+  border:0px;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(86, 182, 139, 0.8);
+}
+
+footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+#menu {
+  display:flex;
+  justify-content: center;
+}
+
+#menu ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#menu ul li {
+  list-style: none;
+  padding:5px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#menu ul li:hover {
+  color:white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#logo {
+  display:block;
+  width:106px;
+  height:30px;
+  background:url("../images/header_logo_sprite.png") 0 0 no-repeat;
+  margin-left: 15px;
+}
+
+#your_team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#your_team_logo {
+  border-radius: 5px;
+  width:30px;
+}
+
+#your_team_text {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+#links_container {
+  margin-top: 10px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+#footer_bar {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.12);
+  display: flex;
+  justify-content: space-between;
+}
+
+#bar_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 10px 0px 10px 0px;
+}
+
+#icon {
+  display:block;
+  width:106px;
+  height:30px;
+  background:url("../images/header_logo_sprite.png") 75px 0 no-repeat;
+  filter:brightness(60%);
+}
+
+#icon:hover {
+  filter:brightness(70%);
+}
+
+#social {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 100px;
+  width: 200px;
+}
+.center_text {
+  text-align: center;
+}
+
+.white_color {
+  color:white;
+}
+.links {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 50px;
+  font-size: 12px;
+}
+.links ul {
+  padding:0;
+}
+.links ul li {
+  list-style: none;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+.links_title {
+  text-transform: uppercase;
+  color:white;
+}
+
+.links_url {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.links_url:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer_link {
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer_link:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#heart {
+   position: relative;
+   width: 50px;
+   height: 45px;
+}
+#heart:before,
+#heart:after {
+   position: absolute;
+   content: "";
+   left: 12px;
+   top: 3px;
+   width: 5px;
+   height: 10px;
+   background: white;
+   -moz-border-radius: 50px 50px 0 0;
+   border-radius: 50px 50px 0 0;
+   -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+       -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+           transform: rotate(-45deg);
+   -webkit-transform-origin: 0 100%;
+      -moz-transform-origin: 0 100%;
+       -ms-transform-origin: 0 100%;
+        -o-transform-origin: 0 100%;
+           transform-origin: 0 100%;
+}
+#heart:after {
+   left: 7px;
+   -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+       -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+           transform: rotate(45deg);
+   -webkit-transform-origin: 100% 100%;
+      -moz-transform-origin: 100% 100%;
+       -ms-transform-origin: 100% 100%;
+        -o-transform-origin: 100% 100%;
+           transform-origin :100% 100%;
+}
