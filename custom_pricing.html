@@ -244,8 +244,8 @@
                       <ul>
                         <li class="faq_button"><a class="faq_link" href="#product">Product</a></li>
                         <li class="faq_button"><a class="faq_link" href="#started">Getting Started</a></li>
-                        <li class="faq_button"><a class="faq_link" href="">Security & Privacy</a></li>
-                        <li class="faq_button"><a class="faq_link" href="">Legal</a></li>
+                        <li class="faq_button"><a class="faq_link" href="#security">Security & Privacy</a></li>
+                        <li class="faq_button"><a class="faq_link" href="#legal">Legal</a></li>
                         <li class="faq_button"><a class="faq_link" href="">Billing & Invocing</a></li>
                       </ul>
                     </div>
@@ -384,50 +384,93 @@
                                         <div class="answer">
                                           <p>We perform security testing every quarter, which encompasses both external network penetration and web application penetration testing.
                                             All findings are reported to management, and issues are resolved by our engineering team when needed.</p>
+                                            <ul>
+                                              <li>Application penetration testing is conducted by iSEC Partners and Bishop Fox (IT security firms), and reports are prepared quarterly.</li>
+                                              <li>Additionally, we have weekly scans performed by an external firm and an ongoing Bug Bounty program with the whitehat community through <a class="link" href="https://slack.com/whitehat">HackerOne</a>.</li>
+                                            </ul>
                                           </div>
                                         </div>
                                         <!-- -->
                                         <div class="question_container">
                                           <div class="question">
-                                            <span>What type of security testing have you conducted within the last 12 months?</span>
+                                            <span>Where are your data centers hosted?</span>
                                             <i class="fa fa-plus-square-o fa-2x open_question blue" aria-hidden="true"></i>
                                             <i class="fa fa-minus-square-o fa-2x close_question blue" aria-hidden="true"></i>
                                           </div>
                                           <div class="answer">
-                                            <p>We perform security testing every quarter, which encompasses both external network penetration and web application penetration testing.
-                                              All findings are reported to management, and issues are resolved by our engineering team when needed.</p>
-                                              <ul>
-                                                <li>Application penetration testing is conducted by iSEC Partners and Bishop Fox (IT security firms), and reports are prepared quarterly.</li>
-                                                <li>Additionally, we have weekly scans performed by an external firm and an ongoing Bug Bounty program with the whitehat community through <a class="link" href="https://slack.com/whitehat">HackerOne</a>.</li>
-                                              </ul>
+                                            <p>Our servers are located in Amazon’s AWS data centers.
+                                              Slack uses four availability zones within AWS’ us-east-1 region, all located in Northern Virginia (U.S.A.). AWS has devoted an entire portion of their site to explaining their security measures, which you can find here:
+                                              <a class="link" href="https://aws.amazon.com/compliance/">https://aws.amazon.com/compliance/</a></p>
                                             </div>
                                           </div>
                                           <!-- -->
                                           <div class="question_container">
                                             <div class="question">
-                                              <span>Where are your data centers hosted?</span>
+                                              <span>What is Slack’s approach to data privacy?</span>
                                               <i class="fa fa-plus-square-o fa-2x open_question blue" aria-hidden="true"></i>
                                               <i class="fa fa-minus-square-o fa-2x close_question blue" aria-hidden="true"></i>
                                             </div>
                                             <div class="answer">
-                                              <p>Our servers are located in Amazon’s AWS data centers.
-                                                Slack uses four availability zones within AWS’ us-east-1 region, all located in Northern Virginia (U.S.A.). AWS has devoted an entire portion of their site to explaining their security measures, which you can find here:
-                                              <a class="link" href="https://aws.amazon.com/compliance/">https://aws.amazon.com/compliance/</a></p>
+                                              <p>Everything you post to Slack is private to your team.
+                                                We are custodians of data on the behalf of teams that use Slack; each team owns its communication data.
+                                                Teams can set their own policies for message retention and administrators can adjust these settings to suit their specific needs.
+                                                You can find our privacy policy <a class="link" href="https://slack.com/privacy-policy">here</a> along with a set of <a class="link" href="https://slack.zendesk.com/hc/en-us/articles/203950296-FAQs-about-Slack-s-policy-update">frequently asked questions</a></p>
                                               </div>
                                             </div>
                                             <!-- -->
                                           </div>
+                                          <div id="legal">
+                                            <h2>Legal</h2>
+                                            <div class="question_container">
+                                              <div class="question">
+                                                <span>Where can I find your Terms of Service (TOS)?</span>
+                                                <i class="fa fa-plus-square-o fa-2x open_question blue" aria-hidden="true"></i>
+                                                <i class="fa fa-minus-square-o fa-2x close_question blue" aria-hidden="true"></i>
+                                              </div>
+                                              <div class="answer">
+                                                <p>You can find them at <a class="link" href="https://slack.com/terms-of-service">https://slack.com/terms-of-service</a></p>
+                                              </div>
+                                            </div>
+                                            <!-- -->
+                                            <div class="question_container">
+                                              <div class="question">
+                                                <span>Will you modify certain parts of your TOS (e.g. Limitation of Liability, Indemnification) to meet our internal legal standards?</span>
+                                                <i class="fa fa-plus-square-o fa-2x open_question blue" aria-hidden="true"></i>
+                                                <i class="fa fa-minus-square-o fa-2x close_question blue" aria-hidden="true"></i>
+                                              </div>
+                                              <div class="answer">
+                                                <p>We designed our TOS to be industry-standard so that it meets the needs of all types of companies.
+                                                  Our TOS are happily being used by a wide range of our customers, both big and small.
+                                                  So we prefer to keep it standardized to be fair to all types of customers who use Slack.
+                                                  If our TOS don’t meet your needs, please contact us and we’d be happy to help.</p>
+                                                </div>
+                                              </div>
+                                              <!-- -->
+                                              <div class="question_container">
+                                                <div class="question">
+                                                  <span>What type of Service Level Agreements (SLA) do you offer?</span>
+                                                  <i class="fa fa-plus-square-o fa-2x open_question blue" aria-hidden="true"></i>
+                                                  <i class="fa fa-minus-square-o fa-2x close_question blue" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="answer">
+                                                  <p>We offer teams using our Plus plan an SLA that guarantees 99.99% monthly uptime.
+                                                    If we don’t meet this guarantee, we’ll refund you 100x whatever you paid Slack for that period of downtime.
+                                                    You can get more details <a class="link" href="https://slack.zendesk.com/hc/en-us/articles/204113126-Plus-Plan-Service-Level-Agreement-SLA-">here</a> and also check on Slack’s <a class="link" href="https://status.slack.com/">uptime status</a></p>
+                                                  </div>
+                                                </div>
+                                                <!-- -->
+                                            </div>
+                                          </div>
                                         </div>
-                                      </div>
-                                    </section>
-                                    <footer>
-                                      <div id="top_container">
-                                        <a id="top" href=""><i class="fa fa-arrow-up" aria-hidden="true"></i> Back to the top</a>
-                                      </div>
-                                      <div id="footer_text_container">
-                                        <p class="footer_text">More questions? Let us help.</p>
-                                        <a class="link footer_text" href="">Contact us <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                      </div>
-                                    </footer>
-                                  </body>
-                                  </html>
+                                      </section>
+                                      <footer>
+                                        <div id="top_container">
+                                          <a id="top" href=""><i class="fa fa-arrow-up" aria-hidden="true"></i> Back to the top</a>
+                                        </div>
+                                        <div id="footer_text_container">
+                                          <p class="footer_text">More questions? Let us help.</p>
+                                          <a class="link footer_text" href="">Contact us <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                        </div>
+                                      </footer>
+                                    </body>
+                                    </html>
